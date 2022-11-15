@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"test": "npx playwright test"},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unidevgoQA/Playwright.git"
@@ -16,6 +18,7 @@
   },
   "homepage": "https://github.com/unidevgoQA/Playwright#readme",
   "devDependencies": {
-    "@playwright/test": "^1.27.1"
+    "@playwright/test": "^1.27.1",
+    "allure-playwright": "^2.0.0-beta.19"
   }
 }
